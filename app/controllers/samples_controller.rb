@@ -8,14 +8,4 @@ class SamplesController < ApplicationController
       end
     end
   end
-
-  def columns
-    respond_to do |format|
-      format.html
-      format.pdf do
-        render(:pdf => "columns",
-               :layout => 'pdf')
-      end
-    end
-  end
 end
