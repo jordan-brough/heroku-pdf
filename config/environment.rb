@@ -10,7 +10,7 @@ Rails::Initializer.run do |config|
   config.after_initialize do
     ActionController::Base.asset_host = Proc.new do |source, request|
       if request.format == 'pdf'
-        "file://#{Rails.root.join('public').to_s}"
+        "file://#{Rails.root.join('public')}"
       end
     end
   end
