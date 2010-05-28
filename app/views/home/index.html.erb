@@ -1,4 +1,11 @@
+<h3>Samples</h3>
 <ul>
-  <li><%= link_to 'hello world html', samples_path('hello_world') %></li>
-  <li><%= link_to 'hello world pdf', samples_path('hello_world', 'pdf') %></li>
+  <li>
+    hello world (<%= link_to 'html', samples_path('hello_world') %> |
+                 <%= link_to 'pdf', samples_path('hello_world', 'pdf') %>)
+  </li>
+  <li>
+    breakfast (<%= link_to 'html', samples_path('breakfast') %> |
+               <%= link_to 'pdf', samples_path('breakfast', 'pdf') %>)
+  </li>
 </ul>

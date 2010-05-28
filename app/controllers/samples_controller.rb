@@ -8,4 +8,11 @@ class SamplesController < ApplicationController
       end
     end
   end
+
+  def breakfast
+    respond_to do |format|
+      format.html { render :layout => false }
+      format.pdf { render(:pdf => "breakfast", :layout => false) }
+    end
+  end
 end
