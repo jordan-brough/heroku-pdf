@@ -24,3 +24,5 @@ initializer code.  This setting is overridden in development to look for `/usr/l
 `after_initialize` block).  If you want to run in development mode and are on an amd64 architecture
 you can just delete the `after_initialize` block.  Otherwise, you'll probably want to grab wkhtmltopdf and update
 the `after_initialize` path as appropriate.
+
+Currently includes wkhtmltopdf version 0.9.9 static amd64 (works on heroku).
