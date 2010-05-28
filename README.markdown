@@ -31,6 +31,16 @@ initializer code.  This setting is overridden in development to look for `/usr/l
 you can just delete the `after_initialize` block.  Otherwise, you'll probably want to grab wkhtmltopdf and update
 the `after_initialize` path as appropriate.
 
+### Asset Paths
+
+Due to how wicked\_pdf invokes wkhtmltopdf (the html file is supplied via stdin rather than as a url) all asset urls need to be absolute file paths rather than relative urls.  For Rails usage, we can use ActionController::Base.asset\_host to switch the path when the request format is pdf.  (see [here](http://github.com/jordan-brough/heroku-pdf/blob/master/config/environment.rb)). We also need to extract any urls out of static stylesheets and put them into Rails templates instead so that the path can be swapped out to a file path when necessary.  Example:
+
+    <style type="text/css" media="screen">
+      #menu a {
+        background: url(<%= image_path('menu.gif')%>) no-repeat;
+      }
+    </style>
+
 ### wkhtmltopdf version
 
 Currently includes wkhtmltopdf version 0.9.9 static amd64 (works on heroku).

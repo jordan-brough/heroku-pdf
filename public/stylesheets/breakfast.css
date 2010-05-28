@@ -1,0 +1,198 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px 0;
+  background: #FFFFFF;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #7F7772;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #3B3B3B;
+}
+
+h1 { font-size: 182%; }
+h2 { font-size: 122%; }
+h3 { font-size: 100%; }
+
+p, ul, ol {
+  margin-bottom: 20px;
+  line-height: 167%;
+  font-size: 85%;
+}
+
+a:link {
+  color: #0AAAFD;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ED2024;
+}
+
+#header {
+  width: 770px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#logo {
+  float: left;
+  width: 240px;
+}
+
+#logo h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#logo h1 a {
+  font-weight: normal;
+  font-size: 24px;
+  color: #3B3B3B;
+}
+
+#logo h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8px;
+}
+
+#logo h2 a {
+  color: #B3A7A0;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+#menu {
+  float: left;
+  width: 530px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  display: inline;
+}
+
+#menu a {
+  display: block;
+  float: left;
+  height: 50px;
+  padding: 30px 25px 0 25px;
+  text-decoration: none;
+  font-size: 114%;
+  color: #3B3B3B;
+}
+
+#menu a:hover {
+  color: #ED2024;
+}
+
+#splash {
+  width: 770px;
+  height: 190px;
+  margin: 0 auto;
+}
+
+#splash p {
+  float: right;
+  width: 460px;
+  height: 70px;
+  margin: 0;
+  padding: 110px 20px 0 50px;
+  text-align: right;
+  font-size: 136%;
+  font-weight: bold;
+  color: #ED2024;
+}
+
+#page {
+  width: 770px;
+  margin: 0 auto;
+}
+
+#page h1, #page h2 {
+  margin-bottom: 20px;
+}
+
+#content {
+  float: left;
+  width: 490px;
+  padding: 20px;
+}
+
+#content ol, #content ul {
+  margin-left: 3em;
+}
+
+#sidebar {
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+
+#sidebar h2 {
+  padding-top: 6px;
+  font-weight: bold;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar li {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px dashed #CCCCCC;
+}
+
+#sidebar h3 {
+  height: 17px;
+  padding: 0 10px;
+  background: #3B3B3B no-repeat;
+  color: #FFFFFF;
+}
+
+#footer {
+  clear: both;
+  width: 770px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-top: 5px solid #3B3B3B;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-size: 77%;
+}
+
+#legal {
+  float: left;
+}
+
+#links {
+  float: right;
+}
