@@ -12,6 +12,7 @@ Install steps:
 * `cd heroku-pdf`
 * `heroku create your-great-app-name --stack bamboo-ree-1.8.7`
 * `git push heroku master`
+* visit `http://your-great-app-name.heroku.com`
 
 Presto pdf.
 
