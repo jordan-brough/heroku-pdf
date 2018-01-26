@@ -1,6 +1,10 @@
+## Unmaintained
+
+NOTE: This repository is no longer maintained!
+
 ## Heroku PDF Generation
 
-### Working Sample: [http://heroku-pdf.heroku.com](http://heroku-pdf.heroku.com)
+### Working Sample: [http://heroku-pdf.herokuapp.com](http://heroku-pdf.heroku.com)
 
 ### Based on
 
